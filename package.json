@@ -1,0 +1,28 @@
+{
+  "name": "ta_twin-win-games",
+  "version": "1.0.0",
+  "description": "test assignment",
+  "main": "index.js",
+  "source": "src/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YevhenPodobedo/TA_Twin-Win-Games.git"
+  },
+  "author": "Yevhen Podobedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YevhenPodobedo/TA_Twin-Win-Games/issues"
+  },
+  "homepage": "https://github.com/YevhenPodobedo/TA_Twin-Win-Games#readme",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "pixi.js": "^8.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  }
+}

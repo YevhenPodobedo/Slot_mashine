@@ -1,0 +1,55 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap';
+body {
+  margin: initial;
+  padding: initial;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  color: #fff;
+}
+
+h1 {
+  margin: inherit;
+  padding: inherit;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 26, 26);
+}
+
+.slot-machine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.slot-machine__title {
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+.slot-machine__btn {
+  width: 600px;
+  height: 100px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(27, 26, 26);
+  transition: 1s;
+  background-image: url(../../image/background/background-canvas.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slot-machine__btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

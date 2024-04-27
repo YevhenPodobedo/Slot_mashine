@@ -1,0 +1,40 @@
+.body {
+ @include flex;
+  
+  background-color: $dark-gray;
+}
+
+.slot-machine {
+  @include flex {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__title {
+    @include font-style (50px, 10px);
+    
+  }
+
+  &__btn {
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+
+    @include font-style (50px, 10px);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $dark-gray;
+    
+    transition: 1s;
+
+    background-image: url(../../image/background/background-canvas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px $white;
+    }
+  }
+}
